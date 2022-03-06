@@ -5,7 +5,6 @@ import Footer from '../components/footer'
 export default function Farms() {
     return(
         <>
-            <Nav />
             <div className="bg-gray-50 p-24 h-full pt-12">
                 <div className="relative px-4 sm:px-6 lg:px-8">
                     <div className="text-lg max-w-prose mx-auto">
@@ -25,7 +24,6 @@ export default function Farms() {
                     </div>
                 </div>
             </div>
-            <Footer />
         </>
     )
 }

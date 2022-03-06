@@ -10,9 +10,9 @@ export default function Nav() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16">
             <div className="flex">
-              <div className="flex-shrink-0 inline-flex items-center mt-8">
+              <div className="flex-shrink-0 inline-flex items-center mt-8 hidden md:flex">
                 <Image
-                  className=" lg:h-24 lg:w-24 md:h-16 md: w-16 sm:hidden "
+                  className=" lg:h-24 lg:w-24 md:h-16 md: w-16 "
                   src="/assets/logoipsum-logo-54.svg"
                   height={144}
                   width={144}
@@ -21,8 +21,12 @@ export default function Nav() {
               </div>
             </div>
             <div className="flex justify-center mt-9">
-                <a href="/" className="mr-6 text-xl text-gray-700 hover:text-red-500">Home</a>
-                <a href="/farms" className="mr-2 text-xl  text-gray-700 hover:text-red-500">Farms</a>
+              <Link href="/" >
+                  <a  className="mr-6 text-xl text-gray-700 hover:text-red-500">Home</a>
+              </Link>
+              <Link href="/farms">
+                  <a  className="mr-2 text-xl  text-gray-700 hover:text-red-500">Farms</a>
+              </Link>
                 <div className="  px-4  ">
                   <Popover className="">
                     {({ open }) => (

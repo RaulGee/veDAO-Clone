@@ -53,7 +53,7 @@ export default function Farm() {
   var showFarm;
   if (connectedState == true) {
     showFarm = 
-      <ul role="list" className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 mx-10">
+      <ul role="list" className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 ">
       {farms.map((farm) => (
         <li
           key={farm.name}
