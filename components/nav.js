@@ -10,7 +10,7 @@ export default function Nav() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16">
             <div className="flex">
-              <div className="flex-shrink-0 inline-flex items-center mt-8 hidden md:flex">
+              <div className="flex-shrink-0 items-center mt-8 hidden md:flex">
                 <Image
                   className=" lg:h-24 lg:w-24 md:h-16 md: w-16 "
                   src="/assets/logoipsum-logo-54.svg"
@@ -24,7 +24,7 @@ export default function Nav() {
               <Link href="/" >
                   <a  className="mr-6 text-xl text-gray-700 hover:text-red-500">Home</a>
               </Link>
-              <Link href="/farms">
+              <Link href="/farms/all-farms">
                   <a  className="mr-2 text-xl  text-gray-700 hover:text-red-500">Farms</a>
               </Link>
                 <div className="  px-4  ">
@@ -52,7 +52,7 @@ export default function Nav() {
                           leaveFrom="opacity-100 translate-y-0"
                           leaveTo="opacity-0 translate-y-1"
                         >
-                          <Popover.Panel className="absolute z-10 w-screen max-w-sm px-4 mt-3 transform -translate-x-1/2 left-1/2 sm:px-0 lg:max-w-3xl">
+                          <Popover.Panel className="absolute z-10 border rounded-lg border-red-500 w-screen max-w-sm px-4 mt-3 transform -translate-x-1/2 left-1/2 sm:px-0 lg:max-w-3xl">
                             <div className="overflow-hidden ring-1 ring-black ring-opacity-5 rounded-lg">
                               <div className="relative grid gap-8 bg-white p-7 lg:grid-cols-1">
                                   <a href="#" className=" border-b flex items-center p-2 -m-3 transition duration-150 ease-in-out hover:bg-gray-50 focus:outline-none focus-visible:ring ">

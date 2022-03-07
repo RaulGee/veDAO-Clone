@@ -1,6 +1,6 @@
-import Farm from '../components/farm'
-import Nav from '../components/nav'
-import Footer from '../components/footer'
+import Farm from '../../components/farm'
+import Nav from '../../components/nav'
+import Footer from '../../components/footer'
 
 export default function Farms() {
     return(
@@ -10,7 +10,7 @@ export default function Farms() {
                     <div className="text-lg max-w-prose mx-auto">
                         <h1>
                             <span className="block text-base text-center text-red-500 font-semibold tracking-wide uppercase">
-                                Token Logo
+                                Token Logo Here
                             </span>
                             <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
                                 Token Farms

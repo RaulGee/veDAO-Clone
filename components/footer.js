@@ -37,7 +37,7 @@ const logos = {
     return (
       <footer className="bg-gray-50">
         <div className="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
-          <div className="mt-8 flex justify-center space-x-6">
+          <div className="mt-4 flex justify-center space-x-6">
             {logos.social.map((item) => (
               <a key={item.name} href={item.href} className="text-gray-400 hover:text-gray-500">
                 <span className="sr-only">{item.name}</span>
