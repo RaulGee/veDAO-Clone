@@ -1,6 +1,6 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-##Info
+## Info
 
 A veDAO clone template I created for a client's crypto project. 
 Lacks some basic functionality like connecting wallet but is a good starting point for a project that needs a landing page and farms.
