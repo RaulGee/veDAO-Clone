@@ -3,7 +3,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Info
 
 A veDAO clone template I created for a client's crypto project. 
+
 Lacks some basic functionality like connecting wallet but is a good starting point for a project that needs a landing page and farms.
+
 Use for your next Crypto project. 
 
 ## Getting Started
